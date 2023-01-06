@@ -1,9 +1,11 @@
-import './App.css';
+import React, { Component } from 'react'
+import Todo from './Todo';
 
 function App() {
   return (
     <div>
-      <h3> welcome</h3>
+      <h3> App component displayed</h3>
+      <Todo />
     </div>
   );
 }
